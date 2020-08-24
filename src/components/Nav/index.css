@@ -1,0 +1,61 @@
+nav {
+  width: 100%;
+  height: 335px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+nav h3 {
+  all: initial;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: black;
+  top: 75px;
+  margin-top: 75px;
+}
+
+.anchors {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.anchors a {
+  text-decoration: none;
+  padding-left: 50px;
+  color: black;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  margin-top: 56px;
+}
+
+.sosialIcon {
+  width: 57px;
+  height: 57px;
+  border-color: rgb(236, 235, 237);
+  border-style: solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 29px;
+  cursor: pointer;
+}
+
+.sosialIcon svg {
+  height: 29px;
+}
+
+.sosialIcon:hover {
+  background: linear-gradient(to bottom left, #9a6ef5 10%, #8d82f9);
+  border-color: transparent;
+}
+
+.sosialIcon:hover svg{
+  fill: white;
+}

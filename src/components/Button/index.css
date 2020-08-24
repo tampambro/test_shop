@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.actionButton, .buyButton {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  width: 203px;
+  height: 60px;
+  border-radius: 32px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 700px;
+  right: 40%;
+  box-shadow: 0px 5px 23.75px 1.25px rgba(189, 227, 239, 0.75);
+}
+
+.actionButton span:after {
+  content: "\279E";
+  padding-left: 16px;
+  color: #7048e2;
+}
+
+.actionButton:hover {
+  background: linear-gradient(to bottom left, #a165f4 50%, #8c84f9);
+  color: white;
+  cursor: pointer;
+}
+
+.buyButton {
+  position: relative;
+  margin-top: auto;
+  margin-left: calc(50% - 101.5px);
+  right: auto;
+  box-shadow: inherit;
+  background: linear-gradient(to bottom left, #a165f4 20%, #8c84f9);
+  color: white;
+  bottom: 70px;
+  display: none;
+  user-select: none;
+}
+
+.buyButton:active {
+  background: #bde3ef;
+}

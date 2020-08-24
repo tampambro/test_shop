@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.Goods {
+  margin-left: 6.875%;
+  margin-top: -36px;
+  width: 86.25%;
+  /* height: 1330px; */
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 47.5px 2.5px rgba(237, 235, 253, 0.75);
+  padding-bottom: 70px;
+}
+
+.Goods h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 99px;
+  margin-bottom: 100px;
+}
+
+.GoodsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 9%;
+  padding-right: 9%;
+}
